@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6th Assignment</title>
+    <link rel="stylesheet" href="CSS/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="6th Assignment CSS.css">
+</head>
+<body>
+<!-- NavBar -->
+    <div class="container-fluid blk" style="position: sticky;">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding: 18px;">
+                <a href="#">
+                    <img class="im" src="img/logo.png" alt="logo" width="200px" height="50px">
+                </a>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <ul class="n" style="padding-top: 20px;">
+                    <li class="n">
+                        <a class="n" target="_blank" href="https://kubernetes.io/docs/"> 
+                            Documentation
+                        </a>    
+                    </li>
+                    <li class="n">
+                        <a class="n" target="_blank" href="https://kubernetes.io/blog/"> 
+                            Kubernates Blog
+                        </a>    
+                    </li>
+                    <li class="n">
+                        <a class="n" target="_blank" href="https://kubernetes.io/training/">  
+                            Training
+                        </a>    
+                    </li>
+                    <li class="n">
+                        <a class="n" target="_blank" href="https://kubernetes.io/partners/"> 
+                            Partners
+                        </a>    
+                    </li>
+                    <li class="n">
+                        <a class="n" target="_blank" href="https://kubernetes.io/community/"> 
+                            Community
+                        </a>    
+                    </li>
+                    <li class="n">
+                        <a class="n" target="_blank" href="https://kubernetes.io/case-studies/"> 
+                            Case Studies
+                        </a>    
+                    </li>
+                    <li class="n">
+                        <select name="version">
+                            <option hidden> <a href="#"> Version </a> </option>
+                            <option value="1"> <a href="#"> v1.11 </a> </option>
+                            <option value="2"> <a href="#"> v1.12 </a> </option>
+                            <option value="3"> <a href="#"> v1.13 </a> </option>
+                            <option value="4"> <a href="#"> v1.14 </a> </option>
+                            <option value="5"> <a href="#"> v1.15 </a> </option>
+                        </select>
+                    </li>
+                    <li class="n">
+                        <select name="Language">
+                            <option value="1"> <a href="#"> English </a></option>
+                            <option value="2"> <a href="#"> Urdu </a></option>
+                            <option value="3"> <a href="#"> Chinese </a></option>
+                            <option value="4"> <a href="#"> Turkish </a></option>
+                            <option value="5"> <a href="#"> Hindi </a></option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- Below NavBar -->
+    <div class="container-fluid blk" style="line-height: 5px;">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12" style="line-height: 1em;">
+                <h3>Black lives matter.</h3>
+                <p>We stand in solidarity with the Black community.</p>
+                <p>Racism is unacceptable.</p>
+                <p>It conflicts with the <u> core values of the Kubernetes project </u> and our community does not tolerate it.</p>
+            </div>
+        </div>
+    </div>
+<!-- Learn Basics -->
+    <div class="container-fluid gry">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <br>
+                <h3>Production-Grade Container Orchestration</h3>
+                <p>Automated container deployment, scaling, and management</p>
+                <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" class="alink">
+                    Learn Kubernates Basics
+                </a>
+                <br><br>                
+            </div>
+        </div>
+    </div>
+<!-- Kubernetes Works -->
+    <div class="container">
+    <!-- 1st works -->
+        <div class="row kw">
+            <div class="col order-last col-lg-4 col-md-4 col-sm-12 col-xs-12" style="align-self: center;">
+                <img src="https://d33wubrfki0l68.cloudfront.net/69e55f968a6f44613384615c6a78b881bfe28bd6/42cd3/_common-resources/images/flower.svg" alt="Nods">
+            </div>
+            <div class="col order-first col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <h3>
+                    <a class="w" target="_blank" href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/">
+                        Kubernetes
+                    </a>, 
+                    also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+                </h3>
+                <br>
+                <p>
+                    It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 
+                    <a class="w" target="_blank" href="http://queue.acm.org/detail.cfm?id=2898444">
+                        15 years of experience of running production workloads at Google
+                    </a>, 
+                    combined with best-of-breed ideas and practices from the community.
+                </p>
+            </div>
+        </div>
+    <!-- 2nd work -->
+        <div class="row kw">
+            <div class="col order-1 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12" style="align-self: center;">
+                <img src="https://d33wubrfki0l68.cloudfront.net/a951677f85f2e5bb1995638ba79a46d8a37efa86/63b73/_common-resources/images/scalable.svg" alt="Planet Scale">
+            </div>
+            <div class="col order-12 col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <h3>
+                    Planet Scale
+                </h3>
+                <br>
+                <p>
+                    Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team.
+                </p>
+            </div>
+        </div>
+    <!-- 3rd work -->
+        <div class="row kw">
+            <div class="col order-12 col-lg-2 col-md-2 col-sm-12 col-xs-12" style="align-self: center;">
+                <img src="https://d33wubrfki0l68.cloudfront.net/e7ac9afff41b1d6b5a409ca05a146e0c1235e4bc/8877f/_common-resources/images/blocks.svg" alt="Never Outgrow">
+            </div>
+            <div class="col order-1 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <h3>Never Outgrow</h3>
+                <br>
+                <p>Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is.</p>
+            </div>
+        </div>
+    <!-- 4th work -->
+        <div class="row kw">
+            <div class="col order-1 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12" style="align-self: center;">
+                <img src="https://d33wubrfki0l68.cloudfront.net/0eaa6a376c567a6ca6d27ae17276e40b532f9733/a8712/_common-resources/images/suitcase.svg" alt="K8s">
+            </div>
+            <div class="col order-12 col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <h3>Run K8s Anywhere</h3>
+                <br>
+                <p>Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you.</p>
+                <br><br>
+            </div>
+        </div>
+    </div>
+<!-- Microservices -->
+    <div class="container-fluid imgb">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>
+                    The Challenges of Migrating 150+ Microservices to Kubernetes
+                </h3>
+                <p>
+                    By Sarah Wells, Technical Director for Operations and Reliability, Financial Times
+                </p>
+                <a style="text-decoration: none;" target="_blank" class="wlink" href="https://youtu.be/H06qrNmGqyE">
+                    <i class="fas fa-play"></i>
+                    Watch Video
+                </a><br><br>
+                <a style="text-decoration: none;" class="blink" target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/?utm_source=kubernetes.io&utm_medium=nav&utm_campaign=kccncna20">
+                    Attend KubeCon NA virtually on November 17-20, 2020
+                </a><br><br>
+                <a style="text-decoration: none;" class="blink" target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/?utm_source=kubernetes.io&utm_medium=nav&utm_campaign=kccnceu21">
+                    Attend KubeCon NA virtually on November 17-20, 2020
+                </a>
+            </div>
+        </div>
+    </div>
+<!-- Features -->
+    <div class="container" style="padding: 50px;">
+    <!-- Heading -->
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                <img width="80px" height="60px" src="img/features.png" alt="Features">
+                <h3 style="padding-top: 10px;">
+                    Kubernetes Features
+                </h3>
+            </div>
+        </div>
+    <!-- 1st row -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">
+                        Automated rollouts and rollbacks
+                    </a>
+                </h3>
+                <p>
+                    Kubernetes progressively rolls out changes to your application or its configuration, while monitoring application health to ensure it doesn't kill all your instances at the same time. If something goes wrong, Kubernetes will rollback the change for you. Take advantage of a growing ecosystem of deployment solutions.
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/services-networking/service/">
+                        Service discovery and load balancing
+                    </a>
+                </h3>
+                <p>
+                    No need to modify your application to use an unfamiliar service discovery mechanism. Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods, and can load-balance across them.
+                </p>
+            </div>
+        </div>
+    <!-- 2nd row -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/services-networking/service-topology/">
+                        Service Topology
+                    </a>
+                </h3>
+                <p>
+                    Routing of service traffic based upon cluster topology.
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/">
+                        Storage orchestration
+                    </a>
+                </h3>
+                <p>
+                    Automatically mount the storage system of your choice, whether from local storage, a public cloud provider such as 
+                    <a target="_blank" href="https://cloud.google.com/storage/">
+                        GCP
+                    </a>
+                     or  
+                    <a target="_blank" href="https://aws.amazon.com/products/storage/">
+                        AWS
+                    </a>
+                     , or a network storage system such as NFS, iSCSI, Gluster, Ceph, Cinder, or Flocker.
+                </p>
+            </div>
+        </div>
+    <!-- 3rd row -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/configuration/secret/">
+                        Secret and configuration management
+                    </a>
+                </h3>
+                <p>
+                    Deploy and update secrets and application configuration without rebuilding your image and without exposing secrets in your stack configuration.
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/">
+                        Automatic bin packing
+                    </a>
+                </h3>
+                <br>
+                <p>
+                    Automatically places containers based on their resource requirements and other constraints, while not sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.
+                </p>
+            </div>
+        </div>
+    <!-- 4th row -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/workloads/controllers/job/">
+                        Batch execution
+                    </a>
+                </h3>
+                <br>
+                <p>
+                    In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/services-networking/dual-stack/">
+                        IPv4/IPv6 dual-stack
+                    </a>
+                </h3>
+                <br>
+                <p>
+                    Allocation of IPv4 and IPv6 addresses to Pods and Services
+                </p>
+            </div>
+        </div>
+    <!-- 5th row -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">
+                        Horizontal scaling
+                    </a>
+                </h3>
+                <br>
+                <p>
+                    Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h3 class="hc" >
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/#how-a-replicationcontroller-works">
+                        Self-healing
+                    </a>
+                </h3>
+                <br>
+                <p>
+                    Restarts containers that fail, replaces and reschedules containers when nodes die, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
+                </p>
+            </div>
+        </div>
+    </div>
+<!-- Case Studies -->
+    <div class="container" style="padding-top: 30px; text-align: center;">
+    <!-- Heading -->
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>
+                    Case Studies
+                </h3>
+            </div>
+        </div>
+    <!-- Studies -->
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+        <!-- 1st column -->
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <img src="https://d33wubrfki0l68.cloudfront.net/7cac771b4506b3ef14e7f981bd8833f926e26dbd/94a72/case-studies/babylon/babylon_featured_logo.svg" alt="babylon">
+                <p>
+                    "Kubernetes is a great platform for machine learning because it comes with all the scheduling and …"
+                </p>
+                <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/case-studies/babylon/">
+                    Read More
+                </a>
+            </div>
+        <!-- 2nd column -->
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <img src="https://d33wubrfki0l68.cloudfront.net/0766f0f12b8271c81bbd484b4ad39bda44a3c098/39663/case-studies/booz-allen/booz-allen-featured-logo.svg" alt="Booz">
+                <p>
+                    "Kubernetes is a great solution for us. It allows us to rapidly iterate on our clients' demands. "
+                </p>
+                <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/case-studies/booz-allen/">
+                    Read More
+                </a>
+                </div>
+        <!-- 3rd column -->
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <img src="https://d33wubrfki0l68.cloudfront.net/1eeb1ae822875a2f07cde402f2fd0c6fad5a6663/def07/case-studies/booking-com/booking.com_featured_logo.svg" alt="Booking">
+                <p>
+                    "We realized that we needed to learn Kubernetes better in order to fully use the potential of it. At …"
+                </p>
+                <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/case-studies/booking-com/">
+                    Read More
+                </a>
+            </div>
+        <!-- 4th column -->
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <img src="https://d33wubrfki0l68.cloudfront.net/e37e1329f8a02d75d3d6b89e7f9cd30fe08ec6ef/bd532/case-studies/appdirect/appdirect_featured_logo.svg" alt="AppDirect">
+                <p>
+                    "We made the right decisions at the right time. Kubernetes and the cloud native technologies are now …"
+                </p>
+                <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/case-studies/appdirect/">
+                    Read More
+                </a>
+            </div>
+        </div>
+        <br>
+    <!-- studies link -->
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>
+                    <a style="text-decoration: none;" target="_blank" href="https://kubernetes.io/case-studies/">
+                        Case Studies
+                    </a>
+                </h3>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                    We are a  
+                    <a style="text-decoration: none;" target="_blank" href="https://cncf.io/">
+                        CNCF
+                    </a>
+                    graduated project
+                </p>
+                <img src="img/cloud.png" alt="cloud">
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+<!-- email -->
+    <div class="container-fluid ema">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <br><br><br><br><br><br>
+                <p>
+                    Interested in receiving the latest Kubernetes news? Sign up for KubeWeekly.
+                </p>
+                <br><br>
+                <input style="width: 20em;" type="email" placeholder="email Address">
+                <button class="sub">Subscribe</button>
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+    <div class="container-fluid flk">
+    <!-- 1st row -->
+        <div class="row" style="font-size: 18px;">            
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <a class="n" target="_blank" href="https://kubernetes.io/docs/home/">    
+                    Home
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <a class="n" target="_blank" href="https://kubernetes.io/blog/">    
+                    Blog
+                </a>    
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <a class="n" target="_blank" href="https://kubernetes.io/training/">    
+                    Training
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <a class="n" target="_blank" href="https://kubernetes.io/partners/">    
+                    Partners
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <a class="n" target="_blank" href="https://kubernetes.io/community/">    
+                    Community
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <a class="n" target="_blank" href="https://kubernetes.io/case-studies/">    
+                    Case Studies
+                </a>
+            </div>
+            <br><br>
+        </div>
+    <!-- 2nd row -->
+        <div class="row">
+        <!-- 1st column -->
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <!-- Mail -->
+                <a style="text-decoration: none;" class="it" target="_blank" href="https://discuss.kubernetes.io/">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            <!-- Twitter -->
+                <a style="text-decoration: none;" class="it" target="_blank" href="https://twitter.com/kubernetesio">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            <!-- Calender -->
+                <a style="text-decoration: none;" class="it" target="_blank" href="https://calendar.google.com/calendar/embed?src=calendar%40kubernetes.io">
+                    <i class="fas fa-calendar-alt"></i>
+                </a>
+            <!-- Youtube -->
+                <a style="text-decoration: none;" class="it" target="_blank" href="https://youtube.com/kubernetescommunity">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        <!-- 2nd column -->
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8" style="font-size: 10px;">
+                <p>© 2020 The Kubernetes Authors | Documentation Distributed under CC BY 4.0</p>
+                <p>Copyright © 2020 The Linux Foundation ®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux</p>
+                <p>Foundation, please see our Trademark Usage page</p>
+                <p>ICP license: 京ICP备17074266号-3</p>
+            </div>
+        <!-- 3rd column -->
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <!-- GitHub -->
+                <a style="text-decoration: none;" class="it" href="https://github.com/kubernetes/kubernetes" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+            <!-- Slack -->
+                <a style="text-decoration: none;" class="it" href="https://slack.k8s.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-slack"></i>
+                </a>
+            <!-- Contribute -->
+                <a style="text-decoration: none;" class="it" href="https://git.k8s.io/community/contributors/guide" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-edit"></i>
+                </a>
+            <!-- Stack OverFlow -->
+                <a style="text-decoration: none;" class="it" href="https://stackoverflow.com/questions/tagged/kubernetes" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-stack-overflow"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
